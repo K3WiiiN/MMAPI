@@ -1,0 +1,36 @@
+{
+  "name": "mmapi",
+  "version": "1.0.0",
+  "description": "MMAPI",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K3WiiiN/MMAPI.git"
+  },
+  "keywords": [
+    "API",
+    "BackEnd"
+  ],
+  "author": "SZKM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K3WiiiN/MMAPI/issues"
+  },
+  "homepage": "https://github.com/K3WiiiN/MMAPI#readme",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node": "^21.1.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
